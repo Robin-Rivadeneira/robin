@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resumen de Css</title>
+    <link href="css/stylos.css" rel="stylesheet" type="text/css">       
+</head>
+<body bgcolor="#ECEFF1">
+    <table border="2", style="position:relative;top:15px;left:370px; width:500px">
+        <tr>
+            <td><h1> Tipos de estylo de CSS</h1></td>
+        </tr>
+    </table>    
+    <table border="1.5", style="position:relative;top:115px;left:9px">
+        <tr>
+            <td><center><h1>LÍNEA (INLINE)</h1></center></td>
+        </tr>
+        <tr>
+            <td><p>Aquellos que se  <br> 
+                directamente en la etiqueta (tag) del documento.<br> 
+                Solamente afectan a la etiqueta en la que<br>
+                son aplicados.</p> </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://i.stack.imgur.com/bDut2.gif" , class="img">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table border="1.5", style="position:relative;top:-298px;left:880px">
+            <tr>
+                <td><center><h1>INCRUSTADOS (EMBEDDED)</h1></center></td>
+            </tr>
+            <tr>
+                <td><p>Los estilos embedded son incrustados dentro de <br> 
+                    la sección <head> del documento. Estos solo afectan<br> 
+                    aquellos tags de la pagina en la que están incrustados.</p></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://images.slideplayer.com/24/7561243/slides/slide_9.jpg">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table border="1.5", style="position:relative;top:-770px;left:420px">
+                <tr>
+                    <td><center><h1>EXTERNOS (EXTERNAL)</h1></center></td>
+                </tr>
+                <tr>
+                    <td><p>Estos son escritos en un documento separado independiente<br> 
+                        y luego vinculado a una o varias paginas web.<br> 
+                        Los estilos externos afectan a cualquier documento vinculado a ellos.</p></td>
+                </tr>
+                <tr>
+                    <td>
+                    <img src="https://slideplayer.com/slide/9042084/27/images/32/Style+Rule+Cascading+Then+style+rulesets+are+effectively+in+the+order.jpg">
+                    </td>
+                </tr>
+            </table>
+                <table border="5" style="position:relative;top:-700px;left:10px; width: 500px">
+              <tr>
+                  <th><center><h1><em>Color de fondo </em></h1></center></th>
+              </tr>
+              <tr>
+                <td>
+                  <p>Puede configurar  el color de fondo para los elementos HTML:</p>
+                    <h3><em>En CSS, el fondo se considera el ancho y el alto de un elemento, más el relleno y los bordes (pero no los márgenes). Usando la propiedad de color de fondo CSS podemos colorear el fondo de nuestra página HTML en rojo.</em></h3>
+                </td>
+              </tr>
+              <tr>
+                  <td>
+                  <br><h4><em>Ejemplos:</em></h4>
+                  <div style="background-color:black; text-align:center;color:white;font-size:24px;">Bastante simple, cierto! Por supuesto, siempre puede usar un ID o una clase para darle al elemento "body" un color de fondo, pero este es el método más fácil. A continuación veremos un par de técnicas para colorear el fondo de los elementos de la página como un "driv".</div>
+                </td>
+              </td>
+              </tr> 
+               <br> 
+               <table border="5" style="position:relative;top:-1250px;left:700px; width: 500px">
+                  <tr>
+                      <th><center><h1><em>Color de texto</em></h1></center></th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Puedes configurar el color del texto:</p>
+                      <h3><em>Para empezar, vamos a diseñar algunos textos básicos. Usaremos la etiqueta en este ejemplo, pero puede aplicar estilo a casi cualquier elemento de texto usando CSS. A continuación se muestra nuestro ejemplo de documento HTML, una página muy simple con solo un título y un breve párrafo.</em></h3>
+                    </td>
+                  </tr>
+                    <tr>
+                      <td>
+                          <h4><em>Ejemplos:</em></h4>
+                        <h3 style="color:tomato">Hola Mundo</h3>
+                        <p style="color:dodgerblue">CSS define numerosas propiedades para modificar la apariencia del texto. A pesar de que no dispone de tantas posibilidades como los lenguajes y programas específicos para crear documentos impresos, CSS permite aplicar estilos complejos y muy variados al texto de las páginas web.</p>
+                      </td>
+                <br>
+              
+                <table border="5" style="position:relative;top:-1200px;left:10px; width: 500px">
+                    <tr>
+                        <th><center><h1><em>Color de borde</em></h1></center></th>
+                    </tr>
+                    <tr>
+                      <td>
+                    <p>Puedes configar el color de los bordes:</p>
+                    <h3><em>La propiedad border-color es una de las "propiedades shorthand" que define CSS y que se utilizan para establecer de forma abreviada el valor de una o más propiedades individuales.</em></h3>
+                  </td>
+                </tr>
+                  <tr>
+                    <td>
+                      <h4><em>Ejemplos:</em></h4>
+                      <h2 style="border: 2px solid Tomato;">Hola Mundo</h2>
+                      <h2 style="border: 2px solid DodgerBlue;">Hola Mundo</h2>
+                      <h2 style="border: 2px solid Violet;">Hola Mundo</h2>
+                    </td>
+                </center>
+              </table>
+            <table border="1" style="position:relative; top:-1150px;left:1px; width: 350px">
+                <tr>
+                    <th>Unidades de Medida en CSS</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>La medidas en CSS se emlea, entre otras, para definir la altura, anchura y márges de los elementos y para establecer el tamaño del texto.</p>
+                        <p>Todas las medidas se indican como un valor numérico entorno o decimal seguido de una unidad de medida, en CSS se divide las unidades de medida en dos grupos: absoluta y relativas.</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table border="1" style="position:relative; top:-1965px;left:540px; width:450px;">
+                <tr>
+                    <center><th>Unidades Absolutas</th></center>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Las unidades absolutas establecen de forma completa el valor de una medida, por lo que su valor real es directamente el valor indicado.</p>
+                        <p>A continuación se muestra la list completa de unidades absolutas definidas por CSS y su significado:</p>
+                    </td>
+                    <td>
+                            <em><p>in, ("inches"; en inglés). Una pulgada equivale a 2.54 centímetros</p>
+                            <p>cm, centímetros.</p>
+                            <p>mm, milímetors.</p>
+                            <p>pt, puntos. Un punto equivale a 1 pulgada/72, es decir, unos 0.35 milímetros.</p>
+                            <p>pc, picas. Una pica equivales a 12 puntos, es decir, unos 4.23 milímetros.</p>
+                        <p>A continuación se muestra ejemplos de utilización de unidades absolutas:</p></em>
+                    </td>
+                    <td>
+                            <em><p>El cuerpo de la página debe mostrar un margen de media pulgada<br>
+                                    body { margin: 0.5in; }</p>
+                                    
+                            <p>Los elementos deben mostrar un interlineado de 2 centímetros<br>
+                                    h1 { line-height: 2cm; }</p>
+                                    
+                            <p>Las palabras de todos los párrafos deben estar separadas 4 milímetros entre si<br>
+                                    p { word-spacing: 4mm; }</p>
+                                    
+                            <p>Los enlaces se deben mostrar con un tamaño de letra de 12 puntos<br>
+                                    a { font-size: 12pt }</p>
+                                    
+                            <p>Los elementos <span> deben tener un tamaño de letra de 1 pica<br>
+                                    span { font-size: 1pc }</p></em>       
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table border="1" style="position:relative; top:-3200px;left:1000px; width: 300px">
+                <tr>
+                    <th>Unidades Relativas</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Las unidades relativas definen su valor en relación con otra medida, por lo que para obtener su valor real, se debe realizar alguna operación con el valor indicado.</p>
+                        <p>A continuación se muestran las tres <em>unidades de medida relativas a la tipografía</em> definidadas por CSS y la referencia que toma cada una para determinar su valor real:</p>
+                            <em> <p>em, equivale a 12 puntos (No confundir con la etiqueta de HTML) relativa respecto del tamaño de letra del elemento.</p>
+                            <p>ex, se puede aproximar po 0.5 em, relativa respecto de la altura de la letra x ("equis minúscula") del tipo y tamaño de letra del elemento.</p>
+                            <p>px, (píxel) relativa respecto de la resolución de la pantalla del dispositivo en el que se visualiza la página HTML.</p></em>
+                        <p>A continuación se muestran las cuatro <em>unidades de medida relativas al viewport - ventana</em> definidadas por CSS y la referencia que toma cada una para determinar su valor real:</p>
+                            <em><p>vw: Porcentaje relativo a la anchura del viewport.</p>
+                            <p>vh: Porcentaje relativo a la altura del viewport.</p>
+                            <p>vmin: Entre vw y vh toma el que tenga menor valor.</p>
+                            <p>vmax: Entre vw y vh toma el que tenga mayor valor.</p></em>
+                    </td>
+                </tr>
+            </table>
+</body>
+</html>
